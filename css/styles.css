@@ -1,4 +1,14 @@
-    *{
+#home {
+   padding-top:50px;
+   height:500px;
+  background-image: url("images/coding.jpg");
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+/*    *{
   font-family: "Rockwell", serif;
 
 }
@@ -15,14 +25,13 @@
 }
 
 #home {
-   padding-top:50px;
-   height:500px;
+
  background-image: url("https://image.freepik.com/free-photo/working-with-a-coffee_1112-145.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
-  
+
 
 }
 
@@ -31,7 +40,7 @@
   text-align: center;
   font-size: 100px;
   text-shadow: 4px 2px #000;
-   
+
 }
  #description{
   margin-top: -30px;
@@ -40,25 +49,25 @@
   font-size: 50px;
   text-shadow: 4px 2px #000;
 }
-hr { 
-  height: 30px; 
-  border-style: solid; 
-  border-color: #8c8b8b; 
-  border-width: 1px 0 0 0; 
-  border-radius: 20px; 
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
   width: 60%;
-  
-} 
-hr:before { 
-  display: block; 
-  content: ""; 
-  height: 30px; 
-  margin-top: -31px; 
-  border-style: solid; 
-  border-color: #8c8b8b; 
-  border-width: 0 0 1px 0; 
-  border-radius: 20px; 
-} 
+
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
 
 #aboutme,  #portfolio {
   color: black;
@@ -112,5 +121,5 @@ hr:before {
 }
 
 button {
-	display: inline-block;
+  display: inline-block;
 }
