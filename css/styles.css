@@ -64,9 +64,16 @@ hr {
 
 }
 
+.panel {
+  background-color: white;
+}
+
 #me {
-  height: 250px;
   width: 200px;
+  height: 250px;
+  border: 5px solid #021a40;
+   display: block;
+    margin: 0 auto;
 }
 
 /*    *{
