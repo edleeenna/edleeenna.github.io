@@ -1,11 +1,72 @@
+ *{
+  font-family: "Rockwell", serif;
+
+}
+
 #home {
    padding-top:50px;
-   height:500px;
-  background-image: url("images/coding.jpg");
+  height: 500px;
+  background-image: url("images/mountains.jpg");
    background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
+}
+
+#projects {
+   padding-top:50px;
+  height: 500px;
+background-image: url("images/coding2.jpg");
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+#hometitle {
+  color: white;
+  font-size: 100px;
+  text-shadow: 5px 3px #000;
+  font-weight: bold;
+
+}
+
+ #description{
+  margin-top: -30px;
+  color: white;
+  font-size: 50px;
+  text-shadow: 4px 2px #000;
+}
+
+#aboutme {
+
+   padding-top:50px;
+   height:500px;
+   background-color: #e5e5e5;
+
+}
+
+#portfolioheading {
+  color:white;
+}
+
+h3 {
+  font-size: 100;
+}
+
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  width: 60%;
+
+}
+
+#me {
+  height: 250px;
+  width: 200px;
 }
 
 /*    *{
