@@ -1,4 +1,122 @@
-    *{
+ *{
+  font-family: "Rockwell", serif;
+
+}
+
+#home {
+   padding-top:50px;
+  height: 500px;
+  background-image: url("images/mountains.jpg");
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+#projects {
+   padding-top:50px;
+  height: 500px;
+background-image: url("images/coding2.jpg");
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+#hometitle {
+  color: white;
+  font-size: 100px;
+  text-shadow: 5px 3px #000;
+  font-weight: bold;
+
+}
+
+ #description{
+  margin-top: -30px;
+  color: white;
+  font-size: 50px;
+  text-shadow: 4px 2px #000;
+}
+
+#aboutme {
+
+   padding-top:50px;
+   height:500px;
+   background-color: #e5e5e5;
+
+}
+
+#contactme {
+  background-color: #e5e5e5;
+}
+
+#portfolioheading {
+  color:white;
+}
+
+h3 {
+  font-size: 100;
+}
+
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  width: 60%;
+
+}
+
+.panel {
+  background-color: white;
+}
+
+#me {
+  width: 200px;
+  height: 250px;
+  border: 5px solid #021a40;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color:black;
+}
+
+#footer {
+ color:white;
+
+}
+
+.btn-li{
+  background-color: #0082CA;
+}
+
+.btn {
+    font-size: 20px;
+    padding: .85rem 2.13rem;
+    border-radius: 2px;
+    border: 0;
+    color: #fff!important;
+    margin: 6px;
+    white-space: normal!important;
+    word-wrap: break-word;
+}
+
+.btn-git {
+    background-color: #4183C4;
+}
+
+.btn-email {
+    background-color: #4B515D;
+}
+
+button {
+  display: inline-block;
+}
+
+/*    *{
   font-family: "Rockwell", serif;
 
 }
@@ -15,14 +133,13 @@
 }
 
 #home {
-   padding-top:50px;
-   height:500px;
+
  background-image: url("https://image.freepik.com/free-photo/working-with-a-coffee_1112-145.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
-  
+
 
 }
 
@@ -31,7 +148,7 @@
   text-align: center;
   font-size: 100px;
   text-shadow: 4px 2px #000;
-   
+
 }
  #description{
   margin-top: -30px;
@@ -40,25 +157,25 @@
   font-size: 50px;
   text-shadow: 4px 2px #000;
 }
-hr { 
-  height: 30px; 
-  border-style: solid; 
-  border-color: #8c8b8b; 
-  border-width: 1px 0 0 0; 
-  border-radius: 20px; 
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
   width: 60%;
-  
-} 
-hr:before { 
-  display: block; 
-  content: ""; 
-  height: 30px; 
-  margin-top: -31px; 
-  border-style: solid; 
-  border-color: #8c8b8b; 
-  border-width: 0 0 1px 0; 
-  border-radius: 20px; 
-} 
+
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
 
 #aboutme,  #portfolio {
   color: black;
@@ -112,5 +229,5 @@ hr:before {
 }
 
 button {
-	display: inline-block;
+  display: inline-block;
 }
