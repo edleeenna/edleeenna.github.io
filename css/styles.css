@@ -5,7 +5,7 @@
 
 #home {
    padding-top:50px;
-  min-height: 500px;
+ min-height: 500px;
   background-image: url("images/mountains.jpg");
    background-repeat: no-repeat;
   background-size: cover;
@@ -117,7 +117,5 @@ button {
 }
 
 img {
-  height: 150px;
+  height: 150px
 }
-
-/* image overlay effects */
